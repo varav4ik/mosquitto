@@ -1,4 +1,4 @@
-app = "mosquitto"
+app = "mosquitto-50sggw"
 
 [build]
   image = "eclipse-mosquitto:2"
