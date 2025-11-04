@@ -1,0 +1,15 @@
+app = "mosquitto-server"
+
+[build]
+  image = "eclipse-mosquitto:2"
+
+[[services]]
+  internal_port = 1883
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 1883
+
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
