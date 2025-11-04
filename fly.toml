@@ -1,4 +1,4 @@
-app = "mosquitto-server"
+app = "mosquitto"
 
 [build]
   image = "eclipse-mosquitto:2"
