@@ -3,6 +3,9 @@ app = "mosquitto-50sggw"
 [build]
   image = "eclipse-mosquitto:2"
 
+[processes]
+  app = "mosquitto -c /mosquitto/config/mosquitto.conf"
+
 [[services]]
   internal_port = 1883
   protocol = "tcp"
