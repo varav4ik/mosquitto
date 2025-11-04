@@ -1,8 +1,5 @@
 app = "mosquitto-50sggw"
 
-[build]
-  image = "eclipse-mosquitto:latest"
-
 [env]
   MOSQUITTO_CONFIG = "/mosquitto/config/mosquitto.conf"
 
