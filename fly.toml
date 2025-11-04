@@ -9,6 +9,8 @@ app = "mosquitto"
 
   [[services.ports]]
     port = 1883
+    handlers = ["tls", "tcp"]
+    
 
   auto_stop_machines = false
   auto_start_machines = true
